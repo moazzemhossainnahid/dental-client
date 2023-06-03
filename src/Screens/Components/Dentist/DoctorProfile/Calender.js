@@ -11,7 +11,7 @@ const Calender = ({date, setDate}) => {
     }
 
     return (
-        <div class="hero">
+        <div class="hero d-flex justify-content-start">
             <div class="hero-content text-center">
                 <div class="max-w-md ">
                     <DayPicker mode="single"

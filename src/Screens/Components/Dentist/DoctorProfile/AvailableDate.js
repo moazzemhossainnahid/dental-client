@@ -7,7 +7,7 @@ const AvailableDate = ({ date }) => {
     const [book, setBook] = useState(null);
 
     useEffect(() => {
-        fetch('serviceSlot.json')
+        fetch('/serviceSlot.json')
             .then(res => res.json())
             .then(data => setTreatments(data));
     }, [])
@@ -15,7 +15,7 @@ const AvailableDate = ({ date }) => {
         <div>
             <div>
                 {
-                    treatments.map(treatment => <Treatment
+                    treatments?.map(treatment => <Treatment
                     key={treatment._id}
                     treatment={treatment}
                     setBook={setBook}

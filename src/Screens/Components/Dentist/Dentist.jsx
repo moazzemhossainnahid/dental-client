@@ -15,6 +15,7 @@ const Dentist = ({ dentist }) => {
     });
   };
   const { _id, name, img, designation } = dentist;
+  const url = `/dentist/${_id}`; //dentist details page url
   return (
     <Card className="dentist-card" data-aos="fade-in">
       <Card.Img variant="top" src={img} />
@@ -22,9 +23,8 @@ const Dentist = ({ dentist }) => {
         <Card.Title className="card-title">{name}</Card.Title>
         <Card.Text>
           {designation}
-          <Link to={`/dentist/${_id}`}><button className="btn-appointment">
+          <Link className="btn-appointment" to={url}>
             Explore More
-          </button>
           </Link>
         </Card.Text>
       </Card.Body>
