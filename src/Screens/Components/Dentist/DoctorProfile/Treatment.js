@@ -2,12 +2,15 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import { PuffLoader } from "react-spinners";
 import useAll from '../../../../hooks/useAll';
+import Swal from 'sweetalert2';
 
 const Treatment = ({ treatment, setBook }) => {
   const { slots } = treatment;
   const { firebase } = useAll();
   const { user, loading } = firebase;
   const history = useHistory();
+
+  console.log(user);
 
   if (loading) {
     return (
@@ -32,8 +35,44 @@ const Treatment = ({ treatment, setBook }) => {
     setBook(treatment);
   }
 
+
+
+
+  const handleGetAppointment = () => {
+
+    const details = {
+      name: user?.displayName,
+      email: user?.email,
+      slot: slots && slots[0]
+    }
+
+    console.log(details);
+
+    fetch("http://localhost:5000/appointment", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(details)
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data?.acknowledged) {
+
+          Swal.fire({
+            icon: "success",
+            title: "Awesome! Your Appointment has been confirmed.. ",
+            showConfirmButton: false,
+            timer: 1500,
+            padding: "1rem 2rem 3rem",
+          });
+        }
+      });
+  };
+
   return (
     <div class="card-body">
+
 
       <p>
         {
@@ -45,9 +84,9 @@ const Treatment = ({ treatment, setBook }) => {
       <p className='text-xl mb-3'>{slots?.length} {slots?.length > 1 ? 'spaces' : 'space'} available</p>
       <div class="card-actions justify-center">
         <button
-         type="button" data-toggle="modal" data-target="#exampleModal"
+          type="button" data-toggle="modal" data-target="#exampleModal"
           for="booking-modal" disabled={slots?.length === 0}
-          onClick={() => handleAppointment()}
+          onClick={() => handleGetAppointment()}
           class="btn btn-primary w-full">Book Appointment</button>
 
       </div>

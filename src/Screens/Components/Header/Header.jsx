@@ -70,6 +70,10 @@ const Header = () => {
                     <i class="fas fa-user me-2"></i>
                     {user.displayName?.split(" ")[0]}
                   </Nav.Link>
+                  <Nav.Link>
+                    <i class="fas fa-user me-2"></i>
+                    my appointments
+                  </Nav.Link>
                   <button
                     className="btn-signout nav-link"
                     onClick={handleLogOut}
