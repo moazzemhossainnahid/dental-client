@@ -4,7 +4,7 @@ const useDentists = () => {
   const [destists, setDetists] = useState([]);
 
   useEffect(() => {
-    fetch("/Dentists.json")
+    fetch("http://localhost:5000/doctors")
       .then((res) => res.json())
       .then((data) => setDetists(data));
   }, []);

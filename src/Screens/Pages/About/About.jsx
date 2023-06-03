@@ -6,7 +6,7 @@ import img3 from "../../../Images/About/about-3.jpg";
 import img4 from "../../../Images/About/about-4.jpg";
 
 import { Carousel, Col, Row } from "react-bootstrap";
-import { useHistory } from "react-router";
+import { useHistory } from "react-router-dom";
 import Count from "../../Components/Count/Count";
 
 const About = () => {

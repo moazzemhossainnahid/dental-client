@@ -4,7 +4,7 @@ import { Carousel } from "react-bootstrap";
 import banner1 from "../../../Images/Banner/banner-1.png";
 import banner2 from "../../../Images/Banner/banner-3.png";
 import banner3 from "../../../Images/Banner/banner-4.png";
-import { useHistory } from "react-router";
+import { useHistory } from "react-router-dom";
 
 const Banner = () => {
   const history = useHistory();

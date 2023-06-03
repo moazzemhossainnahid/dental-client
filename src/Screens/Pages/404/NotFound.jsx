@@ -1,7 +1,7 @@
 import React from "react";
 import "./NotFound.css"; //import css style
 import image from "../../../Images/404/not-found-3.svg";
-import { useHistory } from "react-router";
+import { useHistory } from "react-router-dom";
 
 const NotFound = () => {
   const history = useHistory();

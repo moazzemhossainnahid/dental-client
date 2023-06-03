@@ -1,6 +1,6 @@
 import React from "react";
 import { PuffLoader } from "react-spinners";
-import { Redirect, Route } from "react-router";
+import { Redirect, Route } from "react-router-dom";
 import useAll from "../../../hooks/useAll";
 
 const PrivateRoute = ({ children, ...rest }) => {

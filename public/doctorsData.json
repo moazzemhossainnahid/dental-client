@@ -1,0 +1,182 @@
+[
+    {
+        "_id": 1,
+        "name": "Dr. Md. Abdul Hai",
+        "title": "Neuromedicine Expert",
+        "img": "https://www.ibnsinatrust.com/upload/Professor%20Dr.%20Md.%20Abdul%20Hayee.jpg",
+        "qualifications": [
+            "MBBS",
+            "FCPS (Medicine)",
+            "MD (Neuro)",
+            "PhD (India)",
+            "FRCP (Edin)",
+            "Fellow (Interventional Neurology)"
+        ],
+        "designation": "professor",
+        "expertise": "Neuromedicine",
+        "organization": "Sir Salimullah Medical College and Mitford Hospital",
+        "chamber": "Ibn Sina Diagnostic & Imaging Center",
+        "location": "House # 48, Road # 9/A, Satmasjid Road, Dhanmondi, Dhaka - 1209, Bangladesh",
+        "phone": [
+            "+880-2-9126625-6",
+            "9128835-7"
+        ],
+        "sex": "male",
+        "chamberPhone": "+8801717351631",
+        "desc": "PROFESSOR DR MD ABDUL HAI completed MBBS in Dhaka. He later earned an FCPS degree from the Department of Medicine. Abdul Hai completed his MD degree in Neuromedicine. Prof. Dr. Abdul Hai holds a Ph.D. from India and an FRCP degree from Edin. He is a Professor in the Department of Neuromedicine at Sir Salimulla Medical College and Mitford Hospital."
+    },
+    {
+        "_id": 2,
+        "name": "Dr. Indrajit Prasad",
+        "title": "Endocrinologist Expert",
+        "qualifications": [
+            "MBBS (DMC)",
+            "FCPS (Medicine)",
+            "MD (Endocrinology-BIRDEM)",
+            "Fellow (American College of Endocrinology)"
+        ],
+        "designation": "Associate Professor",
+        "sex": "male",
+        "expertise": "Endocrinologist",
+        "organization": "Dhaka Medical College & Hospital, Dhaka",
+        "chamber": "Labaid Dhanmondi  Branch",
+        "chamberPhone": "+880177826553",
+        "location": "House #6,Road #4, Dhanmondi, Dhaka-1205",
+        "desc": "Dr.Indrajit prashad is an MBBS, Medicine specialist from dhaka medical College and completed MD from Birdem hospital.He has advance training on this sector from Singapore and America.On top of that he is also an hormone specialist. Moreover, he is the Professor & Head Dept. of Endocrinology Dhaka Medical College & Hospital"
+    },
+    {
+        "_id": 3,
+        "name": "Dr. Asma Khatun Aurora",
+        "title": "Obstetrics & Gynaecology Specialist",
+        "img":"https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Most.-Asma-Khatun.jpg",
+        "qualifications": [
+            "MBBS",
+            "FCPS (Obs & Gynae)",
+            "BCS (Health)",
+            " CMU (BTEB) MS (Thesis Part, Dhaka Medical College Hospital)",
+            "MRCOG (Final Part, London, United Kingdom)"
+        ],
+        "sex": "female",
+        "organization": "Surgeon Dhaka Medical College & Hospital",
+        "expertise": "Gynaecology",
+        "chamber": "Padma General Hospital Ltd",
+        "location": "290 Sonargaon Road, Kathalbagan, Dhaka - 1205",
+        "chamberPhone": "+8801778267553",
+        "desc": " A Fellow of BCPS in Obs & Gynae and Life Member of Obstetrical & Gynaecological Society of Bangladesh (OGSB), Dr. Asma Khatun Aurora is highly reputed and vastly experienced in obstetrics, gynaecology, labour emergency, normal vaginal delivery, caesarean delivery, complicated & high-risk pregnancy, all types of complicated obstetrics & gynaecological operations including cancer surgeries, major gynaecological issues (e.g., pregnancy, menstrual, uterus, ovary etc.), infertility & reproductive health, child and maternal health, family planning & communicable diseases."
+    },
+    {
+        "_id": 4,
+        "name": "Dr. Md. Mashiur Rahman",
+        "title": "ENT Specialist & Head-Neck Surgeon",
+        "qualifications": [
+            "MBBS",
+            "FCPS (ENT)"
+        ],
+        "sex": "male",
+        "organization": "Bashundhara Ad-din Medical College & Hospital",
+        "expertise": "ENT",
+        "chamber": "Khidmah Hospital, Dhaka",
+        "location": "C-287/2-3 Khilgaon Bishwa Road, Khilgaon, Dhaka",
+        "chamberPhone": "+8809606063030",
+        "desc": "Dr Md Mashiur Rahman is a Dhaka-based ENT Specialist and Head-Neck Surgeon. His credentials are MBBS, FCPS (ENT). He is now employed at Bashundhara Ad-din Medical College & Hospital as an ENT Specialist & Head-Neck Surgeon. He treats his patients on a daily basis at Dhaka’s Khidmah Hospital. Dr Md Mashiur Rahman practices from 6pm to 9.30pm at Khidmah Hospital in Dhaka (Everyday)."
+    },
+    {
+        "_id": 5,
+        "name": " Dr. Aslam Almehdi",
+        "title": "Maxillofacial Surgeon",
+        "qualifications": [
+            "BDS",
+            "MS",
+            "PhD (Tokyo)",
+            "FIAOO (UK)",
+            "FICD (USA)",
+            "Postdoc (Australia)"
+        ],
+        "sex": "male",
+        "designation": "Associate Professor",
+        "organization": "Delta Medical College & Hospital",
+        "expertise": "Oral, Dental, Periodontal Plastic & Maxillofacial Surgeon",
+        "chamber": "Royal Dental & Maxillofacial Surgery",
+        "location": "House # 67/C, Road # 11, Block # E, Banani, Dhaka - 1213",
+        "chamberPhone": "+01311863611",
+        "desc": "Assoc. Prof. Dr. Aslam Almehdi is a Dentist in Dhaka. His qualification is BDS, MS, PhD (Tokyo), FIAOO (UK), FICD (USA), Postdoc (Australia). He is a Consultant Surgeon in the Department of Dental at Delta Medical College & Hospital."
+    },
+    {
+        "_id": 6,
+        "name": "Dr. Mamun Al Mahtab Shwapnil",
+        "title": "Hepatologist & Gastroenterologist",
+        "qualifications": [
+            "MBBS",
+            "MSc (Gastro)",
+            "MD (Hepatology)",
+            "FACG (USA)",
+            "FICP (India)",
+            "FRCP (Ireland)",
+            "FRCP (UK)"
+        ],
+        "sex": "male",
+        "designation": "Professor",
+        "organization": "Bangabandhu Sheikh Mujib Medical University Hospital.",
+        "expertise": "Hepatologist & Gastroenterologist",
+        "chamber": "Anwer Khan Modern Medical College Hospital",
+        "location": "House # 17, Road # 08, Dhanmondi R/A, Dhaka – 1205",
+        "chamberPhone": "+8801914265331",
+        "desc": "Mamun Al Mahtab (August 22, 1970) is a Bangladeshi hepatologist, medical scientist, author, and columnist. With 290 publications in national and international peer-reviewed journals to his credit, Mahtab is currently working as the Head, Division of Interventional Hepatology, Bangabandhu Sheikh Mujib Medical University (BSMMU).[1] In 1998, he graduated from the University of London with an MSc in gastroenterology, and then in 2006, he obtained an MD in hepatology at Bangabandhu Sheikh Mujib Medical University(BSMMU).He has received several awards for his great discovery Nasvac's in 2019."
+    },
+    {
+        "_id": 7,
+        "name": "Dr. M. U. Kabir Chowdhury",
+        "title": "Sexual Diseases Specialist",
+        "qualifications": [
+            "MBBS",
+            "DDV (Vienna)",
+            "AFICA (USA)",
+            "FRCP (Glasgow)"
+        ],
+        "sex": "male",
+        "designation": "Professor",
+        "organization": "Holy Family Red Crescent Medical College & Hospital.",
+        "expertise": "Skin, Allergy & Sexual Diseases Specialist",
+        "chamber": "National Skin Center, Dhaka",
+        "location": "57/E (Near Samorita Hospital), Panthapath, Dhaka",
+        "chamberPhone": "+88029103130",
+        "desc": "Prof. Dr. M. U. Kabir Chowdhury is a Dermatologist in Dhaka. His qualification is MBBS, DDV (Vienna), AFICA (USA), FRCP (Glasgow). He is a Professor in the Department of Dermatology & Venereology at Holy Family Red Crescent Medical College & Hospital. He regularly provides treatment to his patients at National Skin Center, Dhaka. Practicing hour of Prof. Dr. M. U. Kabir Chowdhury at National Skin Center, Dhaka is 8am to 8pm (Everyday)."
+    },    
+    {
+        "_id": 8,
+        "name": "Dr. AKM Fazlul Haque",
+        "title": "Colorectal Surgeon",
+        "qualifications": [
+            "MBBS",
+            "FCPS (Surgery)",
+            "FICS (USA)",
+            "Fellow Colorectal Surgery (Singapore)"
+        ],
+        "sex": "male",
+        "designation": "Professor",
+        "organization": "Bangabandhu Sheikh Mujib Medical University Hospital.",
+        "expertise": "Colorectal (Piles, Rectum, Colon) Surgeon",
+        "chamber": "Eden Multi Care Hospital, Dhaka",
+        "location": "753, Satmasjid Road, Dhanmondi, Dhaka",
+        "chamberPhone": "+8801755697173",
+        "desc": "Prof. Dr. AKM Fazlul Haque is a Colorectal Surgeon in Dhaka. His qualification is MBBS, FCPS (Surgery), FICS (USA), Fellow Colorectal Surgery (Singapore). He is a Former Professor & Chairman in the Department of Colorectal Surgery at Bangabandhu Sheikh Mujib Medical University Hospital. He regularly provides treatment to his patients at Eden Multi Care Hospital, Dhaka. Practicing hour of Prof. Dr. AKM Fazlul Haque at Eden Multi Care Hospital, Dhaka is 10am to 12pm & 5pm to 8pm (Closed: Friday)."
+    },
+    {
+        "_id": 9,
+        "name": "Dr. R. R. Kairy",
+        "title": "Orthopedics",
+        "qualifications": [
+            "MBBS",
+            "MS (Orthopedics)",
+            "FICS"
+        ],
+        "sex": "male",
+        "designation": "Professor",
+        "organization": "National Institute of Traumatology & Orthopedic Rehabilitation",
+        "expertise": "Orthopedics (Bone, Joint, Arthritis, Trauma, Injury), Hand & Reconstructive Surgeon",
+        "chamber": "Green Life Hospital, Dhaka",
+        "location": "32, Bir Uttam Shafiullah Sarak (Green Road), Dhanmondi, Dhaka",
+        "chamberPhone": "+8801618800088",
+        "desc": "Prof. Dr. R. R. Kairy is a Orthopedic Surgeon in Dhaka. His qualification is MBBS, MS (Orthopedics), FICS. He is a Professor in the Department of Orthopedic Surgery at National Institute of Traumatology & Orthopedic Rehabilitation. He regularly provides treatment to his patients at Green Life Hospital, Dhaka. Practicing hour of Prof. Dr. R. R. Kairy at Green Life Hospital, Dhaka is 10am to 12pm & 6pm to 8pm (Closed: Sat, Mon & Friday)."
+    }
+]

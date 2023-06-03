@@ -2,6 +2,7 @@ import React from "react";
 import "./Dentist.css";
 import { Card } from "react-bootstrap";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
 
 const Dentist = ({ dentist }) => {
   const handleGetAppointment = () => {
@@ -13,17 +14,18 @@ const Dentist = ({ dentist }) => {
       padding: "1rem 2rem 3rem",
     });
   };
-  const { doctorName, doctorImg, designation } = dentist;
+  const { _id, name, img, designation } = dentist;
   return (
     <Card className="dentist-card" data-aos="fade-in">
-      <Card.Img variant="top" src={doctorImg} />
+      <Card.Img variant="top" src={img} />
       <Card.Body className="text-center">
-        <Card.Title className="card-title">{doctorName}</Card.Title>
+        <Card.Title className="card-title">{name}</Card.Title>
         <Card.Text>
           {designation}
-          <button onClick={handleGetAppointment} className="btn-appointment">
-            Get Appointment
+          <Link to={`/dentist/${_id}`}><button className="btn-appointment">
+            Explore More
           </button>
+          </Link>
         </Card.Text>
       </Card.Body>
     </Card>
