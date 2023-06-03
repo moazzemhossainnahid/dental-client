@@ -1,0 +1,144 @@
+.form {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../../../Images/Background-Banner/grd-bg-700.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem;
+}
+
+.sign-form {
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+.sign-left {
+  color: #fff;
+  position: relative;
+}
+.sign-greetings {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 10%;
+}
+.sign-greetings img {
+  display: block;
+  margin: 0 auto;
+}
+.sign-right {
+  color: #fff;
+  padding: 5% !important;
+}
+
+.form-input {
+  background-color: #a3d1ca9a !important;
+  border: none !important;
+  padding: 4% 5% !important;
+}
+.form-input::placeholder {
+  color: #e1e1e1e1 !important;
+}
+.form-input:focus {
+  color: #dee3e4 !important;
+}
+.form-label {
+  color: #dee3e4 !important;
+}
+.text-more-option {
+  color: #dee3e4;
+  position: relative;
+}
+.text-more-option::before,
+.text-more-option::after {
+  content: "";
+  border: 1px solid #dee3e4;
+  position: absolute;
+  top: 50%;
+  width: 27%;
+  opacity: 0.2;
+}
+.text-more-option::before {
+  left: 0;
+}
+.text-more-option::after {
+  right: 0;
+}
+.btn-custom {
+  border: none;
+  padding: 3% 6%;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #30d6be;
+}
+.btn-custom:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(255, 255, 255, 0.24);
+}
+
+.btn-social {
+  border: none;
+  margin: 5px;
+  font-size: 25px;
+  background-color: #30d6be;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-social i {
+  backface-visibility: hidden;
+  transition: all 0.2s ease;
+}
+.btn-social:hover i {
+  transform: scale(1.5) skew(-7deg) translate(5px, -5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.switch-link {
+  color: #30d6be;
+  text-decoration-color: #30d6be;
+  transition: all 0.1s;
+}
+.switch-link:hover {
+  color: #30d6be;
+}
+
+.required-text {
+  font-size: 12px;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: -8px;
+  font-weight: 500;
+  color: orange;
+}
+
+@media (max-width: 668px) {
+  .form {
+    min-height: 80vh;
+    padding: 3rem 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-left {
+    display: none;
+  }
+
+  .sign-right {
+    color: #fff;
+    padding: 5% !important;
+  }
+}

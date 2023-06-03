@@ -1,0 +1,48 @@
+.dentist-card {
+  min-height: 300px;
+  max-height: 320px;
+  color: #07a5e2;
+  border: none !important;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dentist-card img {
+  height: 180px;
+  object-fit: cover;
+  object-position: top center;
+}
+.dentist-card .card-title {
+  font-size: 16px;
+}
+.dentist-card p {
+  font-size: 14px;
+}
+
+.btn-appointment {
+  display: block;
+  font-size: 12px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #07a5e2;
+  padding: 6px 12px;
+  text-transform: uppercase;
+  transition: all 0.1s ease;
+}
+.btn-appointment:active,
+.btn-active:active {
+  transform: scale(0.95);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------------------------- SHORT MEDIA QUERY --------------------------- */
+@media (max-width: 668px) {
+  .dentist-card {
+    min-height: 380px;
+  }
+
+  .dentist-card img {
+    height: 250px;
+  }
+}

@@ -1,0 +1,84 @@
+.service-details {
+  padding: 2rem 6rem;
+  background-image: linear-gradient(
+      to right,
+      rgba(49, 213, 189, 0.75),
+      rgba(7, 166, 226, 0.75)
+    ),
+    url(../../../Images/Logo/bg-2-footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.service-details-grid-box {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  color: #fff;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 4rem;
+  position: relative;
+}
+
+.service-poster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-poster img {
+  width: 70%;
+  outline: 1rem solid #fff;
+  outline-offset: 1.5rem;
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-content h1 {
+  font-family: "Jost", sans-serif;
+  font-size: 50px;
+}
+.service-content p {
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 14px;
+}
+.service-price {
+  font-size: 22px;
+  font-weight: 400;
+}
+.service-price span {
+  font-weight: 600;
+}
+
+@media (max-width: 668px) {
+  .service-details {
+    padding: 2rem 2rem;
+  }
+  .service-details-grid-box {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 4rem 2rem;
+  }
+
+  .service-poster {
+    margin-bottom: 2rem;
+  }
+  .service-poster img {
+    width: 70%;
+    outline: 1rem solid #fff;
+    outline-offset: 1.3rem;
+  }
+
+  .service-content h1 {
+    font-size: 36px;
+  }
+  .service-content p {
+    font-size: 12px;
+  }
+}
