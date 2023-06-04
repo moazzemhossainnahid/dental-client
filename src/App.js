@@ -23,6 +23,7 @@ import { useEffect } from "react";
 import DoctorProfile from "./Screens/Components/Dentist/DoctorProfile/DoctorProfile";
 import BookingModal from "./Screens/Components/Dentist/DoctorProfile/BookingModal";
 import MyAppointments from "./Screens/Pages/myAppointments/myAppointments";
+import UpdateApp from "./Screens/Pages/myAppointments/UpdateApp";
 
 function App() {
   useEffect(() => {
@@ -70,6 +71,9 @@ function App() {
             </PrivateRoute>            
             <PrivateRoute exact path="/myappointments">
               <MyAppointments></MyAppointments>
+            </PrivateRoute>
+            <PrivateRoute exact path="/updateapp/:id">
+              <UpdateApp></UpdateApp>
             </PrivateRoute>
 
             <Route exact path="/form/signin">

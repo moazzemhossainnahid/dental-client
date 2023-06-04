@@ -1,20 +1,18 @@
 import React from 'react';
 import useAll from '../../../hooks/useAll';
 import Swal from 'sweetalert2';
+import { useHistory } from 'react-router-dom';
 
 const MyAppointments = () => {
     const { app } = useAll();
     const { firebase } = useAll();
     const { user } = firebase;
     const myApp = app?.filter(a => a?.email === user?.email);
+    const history = useHistory();
 
     console.log(myApp);
 
-    
-  const handleUpdate = (id) => {
-    // Handle update logic here
-    console.log(`Update card with id ${id}`);
-  };
+
 
   const handleDelete = (id) => {
     // Handle delete logic here
@@ -43,7 +41,7 @@ const MyAppointments = () => {
         <div className="container mt-5">
             <div className="row">
                 {myApp?.map((item, index) => (
-                    <div className="col-md-6 col-lg-3 mb-4" key={index}>
+                    <div className="col-md-6 col-lg-4 mb-4" key={index}>
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">{item?.name}</h5>
@@ -62,7 +60,7 @@ const MyAppointments = () => {
                                 <div className="btn-group">
                                     <button
                                         className="btn btn-primary"
-                                        onClick={() => handleUpdate(item?._id)}
+                                        onClick={() => history.push(`/updateapp/${item?._id}`)}
                                     >
                                         Update
                                     </button>
