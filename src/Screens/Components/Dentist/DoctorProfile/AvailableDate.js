@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Treatment from './Treatment';
 import BookingModal from './BookingModal';
 
-const AvailableDate = ({ date }) => {
+const AvailableDate = ({ date,doctor }) => {
     const [treatments, setTreatments] = useState([]);
     const [book, setBook] = useState(null);
 
@@ -19,6 +19,7 @@ const AvailableDate = ({ date }) => {
                     key={treatment._id}
                     treatment={treatment}
                     setBook={setBook}
+                    doctor={doctor}
                     ></Treatment>)
                 }
             </div>

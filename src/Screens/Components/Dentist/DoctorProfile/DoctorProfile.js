@@ -80,7 +80,7 @@ const DoctorProfile = () => {
           <>
             <h3 className='font-bold text-2xl text-left text-primary'>Select Date for Appointment</h3>
             <Calender date={date} setDate={setDate}></Calender>
-            <AvailableDate date={date} footer={footer}></AvailableDate>
+            <AvailableDate doctor={doctor} date={date} footer={footer}></AvailableDate>
           </>
 
         </div>

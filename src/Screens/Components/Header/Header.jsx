@@ -70,8 +70,8 @@ const Header = () => {
                     <i class="fas fa-user me-2"></i>
                     {user.displayName?.split(" ")[0]}
                   </Nav.Link>
-                  <Nav.Link>
-                    <i class="fas fa-user me-2"></i>
+                  <Nav.Link to="/myappointments" activeStyle={activeStyle} as={NavHashLink}>
+                    <i class="fas fa-app me-2"></i>
                     my appointments
                   </Nav.Link>
                   <button

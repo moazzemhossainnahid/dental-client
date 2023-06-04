@@ -4,13 +4,13 @@ import { PuffLoader } from "react-spinners";
 import useAll from '../../../../hooks/useAll';
 import Swal from 'sweetalert2';
 
-const Treatment = ({ treatment, setBook }) => {
+const Treatment = ({ treatment, setBook, doctor }) => {
   const { slots } = treatment;
   const { firebase } = useAll();
   const { user, loading } = firebase;
   const history = useHistory();
 
-  console.log(user);
+  console.log(doctor);
 
   if (loading) {
     return (
@@ -43,7 +43,9 @@ const Treatment = ({ treatment, setBook }) => {
     const details = {
       name: user?.displayName,
       email: user?.email,
-      slot: slots && slots[0]
+      slot: slots && slots[0],
+      doctorName:doctor?.name,
+      doctorTitle:doctor?.title,
     }
 
     console.log(details);
