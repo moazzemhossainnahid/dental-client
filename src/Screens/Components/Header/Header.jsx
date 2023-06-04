@@ -5,10 +5,15 @@ import { NavHashLink } from "react-router-hash-link";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import useAll from "../../../hooks/useAll";
 import Swal from "sweetalert2";
+import { useHistory } from "react-router-dom";
 
 const Header = () => {
   const { firebase } = useAll();
   const { user, logOut } = firebase;
+  const history = useHistory();
+  const goTomyappointments = () => {
+    history.push("/myappointments");
+  };
 
   const handleLogOut = () => {
     //log out confirmation checking popup
@@ -70,7 +75,7 @@ const Header = () => {
                     <i class="fas fa-user me-2"></i>
                     {user.displayName?.split(" ")[0]}
                   </Nav.Link>
-                  <Nav.Link to="/myappointments" activeStyle={activeStyle} as={NavHashLink}>
+                  <Nav.Link onClick={()=>goTomyappointments()} to="/myappointments" activeStyle={activeStyle} as={NavHashLink}>
                     <i class="fas fa-app me-2"></i>
                     my appointments
                   </Nav.Link>
