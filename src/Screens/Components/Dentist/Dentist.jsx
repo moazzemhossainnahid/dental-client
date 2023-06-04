@@ -18,7 +18,7 @@ const Dentist = ({ dentist }) => {
   const url = `/dentist/${_id}`; //dentist details page url
   return (
     <Card className="dentist-card" data-aos="fade-in">
-      <Card.Img variant="top" src={img} />
+      <Card.Img style={{height:"300px"}} className="overflow-hidden" variant="top" src={img} />
       <Card.Body className="text-center">
         <Card.Title className="card-title">{name}</Card.Title>
         <Card.Text>
